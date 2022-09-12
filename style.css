@@ -1,0 +1,93 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1.3rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+body{
+    background-image: url(images/final.jpg )
+}
+
+
+
+.input{
+
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+    border-left-width: 2px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    /* margin-right: 4px; */
+    
+
+}
+
+.text{
+    border-left-width: 2px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    margin-right: 4px;
+    width: 20rem;
+    height: 3rem;
+    font-size: 1.3rem;
+
+}
+
+.Btn{
+    background-color:rgb(76, 107, 245);
+    color: yellow;
+    border-left-width: 2px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    /* margin: 1.5px 3px; */
+    margin-left: 12px;
+    /* padding: 1.5px; */
+    height: 2rem;
+    width: 3.2rem;
+    height: 2rem;
+    font-size: 20px;
+    /* position: absolute; */
+    border-radius: 4px;
+
+    /* margin: 3rem; */
+    
+}
+
+.Btn:hover{
+    background-color: blueviolet;
+    height: 1.8rem;
+}
+
+.BtnSp{
+    background-color:rgb(76, 107, 245);
+    color: rgb(200, 255, 0);
+    border-left-width: 2px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    margin: 1.5px 3px;
+    padding: 1.5px;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 6px;
+}
+
+.BtnSp:hover{
+        background-color: blueviolet;
+        height: 2.9rem;
+    border-radius: 6px;
+
+    }
+
+.list{
+    display: flex;
+    justify-content: center;
+    top: 2rem;
+    /* margin-left: 8rem; */
+}
+
+.lihai{
+    margin: 2rem;
+}
