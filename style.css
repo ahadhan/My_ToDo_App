@@ -33,6 +33,9 @@ body{
     width: 20rem;
     height: 3rem;
     font-size: 1.3rem;
+    border-radius: 25px;
+    text-align: center;
+    /* border-inline: solid gray 5px; */
 
 }
 
