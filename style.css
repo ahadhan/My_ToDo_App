@@ -1,13 +1,23 @@
 
+
 *{
     margin: 0;
     padding: 0;
     font-size: 1.3rem;
     font-family: 'Roboto Slab', serif;
+    z-index: 1;
 }
 
-body{
-    background-image: url(images/final.jpg )
+.img{
+    height: auto;
+    width: 100%;
+    
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    /* background-image: url(images/final.jpg ) */
+    /* background-size : contain; */
+
     
 }
 
@@ -15,7 +25,7 @@ body{
 
 .input{
 
-    display: flex;
+    display:flex;
     justify-content: center;
     margin: 5rem;
     border-left-width: 2px;
@@ -23,7 +33,6 @@ body{
     border-bottom-width: 3px;
     /* margin-right: 4px; */
     
-
 }
 
 .text{
@@ -43,6 +52,7 @@ body{
 .Btn{
     background-color:rgb(76, 107, 245);
     color: yellow;
+    display: flexbox;
     border-left-width: 2px;
     border-right-width: 4px;
     border-bottom-width: 4px;
@@ -76,6 +86,7 @@ body{
     width: 8rem;
     height: 3rem;
     border-radius: 6px;
+    display: flexbox;
 }
 
 .BtnSp:hover{
@@ -90,6 +101,13 @@ body{
     justify-content: center;
     top: 2rem;
     /* margin-left: 8rem; */
+}
+
+.li{
+    /* display: flex; */
+    color: black;
+    outline: black;
+    text-decoration: solid;
 }
 
 .lihai{

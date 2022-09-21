@@ -19,8 +19,8 @@ function addItem(){
 
     // Creating Delete Button//
 
-    var delBtn = document.createElement("button", <i class="fa-solid fa-trash-can"></i> )
-    var delText = document.create("Delete")
+    var delBtn = document.createElement("button")
+    var delText = document.createTextNode("Delete")
 
     delBtn.appendChild(delText)  
 
